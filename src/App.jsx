@@ -1,8 +1,7 @@
 import { useState } from "react";
 
-// Main App component for the portfolio
+//  the portfolio of Roberto
 const App = () => {
-  // State for managing the mobile menu visibility
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Hardcoded personal and project data
@@ -159,7 +158,7 @@ const App = () => {
           <nav className="navbar navbar-expand-md navbar-dark">
             <div className="container px-4 py-3">
               <a className="navbar-brand text-info fw-bold" href="#">
-                Roberto Albergo
+                Portfolio Roberto Albergo
               </a>
               <button
                 className="navbar-toggler"
@@ -286,7 +285,7 @@ const App = () => {
             </div>
           </section>
 
-          {/* Technical Skills Section */}
+          {/* Competenze Tecniche */}
           <section className="py-5 bg-dark" id="skills">
             <div className="container px-4">
               <h2 className="text-center text-white mb-5">
