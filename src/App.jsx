@@ -66,18 +66,34 @@ const App = () => {
     },
   ];
 
+  const contacts = {
+    linkedinUrl: "https://www.linkedin.com/in/roberto-albergo",
+    githubUrl: "https://github.com/Robby75-11",
+    email: "ralbergo7@gmail.com",
+    phone: "3476719062",
+  };
+
   const skills = [
     "HTML",
     "CSS",
-    "JS",
+    "JavaSscript",
     "Bootstrap",
+    "Sass",
+    "tailwind",
     "React",
     "Node.js",
-    "TS",
-    "Spring",
+    "TypeScript",
     "Redux",
     "Java",
+    "Spring Boot",
+    "JPA",
+    "JWT",
     "PostgreSQL",
+    "REST API",
+    "Git",
+    "GitHub",
+    "Docker",
+    "Heroku",
     "Railway",
     "Vercel",
     "Koyeb",
@@ -115,7 +131,6 @@ const App = () => {
     },
   ];
 
-  // Function to handle smooth scrolling
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -124,8 +139,6 @@ const App = () => {
     }
   };
 
-  // We are embedding Bootstrap via CDN since we cannot create separate CSS files.
-  // This is a requirement for single-file web apps in this environment.
   return (
     <>
       <link
@@ -187,13 +200,21 @@ const App = () => {
                       Progetti
                     </button>
                   </li>
+                  <li className="nav-item">
+                    <button
+                      className="nav-link text-white-50"
+                      onClick={() => scrollToSection("contacts")}
+                    >
+                      Contatti
+                    </button>
+                  </li>
                 </ul>
               </div>
             </div>
           </nav>
         </header>
 
-        {/* Main Content */}
+        {/* Contenuto principale */}
         <main>
           {/* Hero Section */}
           <section
@@ -221,25 +242,6 @@ const App = () => {
                   </p>
                   <p className="fs-6 text-white-50 mb-4">{personalData.bio}</p>
                   <div className="d-flex flex-wrap justify-content-center gap-3">
-                    <a
-                      href={personalData.linkedinUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-info rounded-pill px-4 py-2"
-                    >
-                      LinkedIn
-                    </a>
-                    {personalData.githubUrl &&
-                      personalData.githubUrl !== "#" && (
-                        <a
-                          href={personalData.githubUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn-secondary rounded-pill px-4 py-2"
-                        >
-                          GitHub
-                        </a>
-                      )}
                     <button
                       onClick={() => scrollToSection("experiences")}
                       className="btn btn-secondary rounded-pill px-4 py-2"
@@ -252,7 +254,7 @@ const App = () => {
             </div>
           </section>
 
-          {/* Professional Experiences Section */}
+          {/* Esperienze lavorative */}
           <section className="py-5 bg-secondary" id="experiences">
             <div className="container px-4">
               <h2 className="text-center text-white mb-5">
@@ -304,7 +306,7 @@ const App = () => {
             </div>
           </section>
 
-          {/* Projects Section */}
+          {/* Progeti */}
           <section className="py-5 bg-secondary" id="projects">
             <div className="container px-4">
               <h2 className="text-center text-white mb-5">I miei progetti</h2>
@@ -354,9 +356,49 @@ const App = () => {
               </div>
             </div>
           </section>
+
+          {/* Sezione Contatti */}
+          <section className="py-5 bg-dark" id="contacts">
+            <div className="container px-4 text-center">
+              <h2 className="text-white mb-4">Contatti</h2>
+              <p className="text-white-50 mb-4">
+                Puoi raggiungermi attraverso i seguenti canali:
+              </p>
+              <div className="d-flex flex-wrap justify-content-center gap-3">
+                <a
+                  href={contacts.linkedinUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-info rounded-pill px-4 py-2"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href={contacts.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-secondary rounded-pill px-4 py-2"
+                >
+                  GitHub
+                </a>
+                <a
+                  href={`mailto:${contacts.email}`}
+                  className="btn btn-secondary rounded-pill px-4 py-2"
+                >
+                  {contacts.email}
+                </a>
+                <a
+                  href={`tel:${contacts.phone}`}
+                  className="btn btn-secondary rounded-pill px-4 py-2"
+                >
+                  {contacts.phone}
+                </a>
+              </div>
+            </div>
+          </section>
         </main>
 
-        {/* Footer Section */}
+        {/* Footer  */}
         <footer className="bg-dark py-4 text-center text-white-50 small">
           <div className="container">
             <p className="mb-0">
