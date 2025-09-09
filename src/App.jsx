@@ -92,11 +92,12 @@ const App = () => {
     "Git",
     "GitHub",
     "Docker",
-    "Heroku",
     "Railway",
     "Vercel",
     "Koyeb",
     "Postman",
+    "IntelliJ",
+    "VSCode",
   ];
 
   const professionalExperiences = [
@@ -296,7 +297,7 @@ const App = () => {
                   <span
                     key={index}
                     className="badge rounded-pill bg-secondary text-info fw-normal"
-                    style={{ padding: "0.5rem 1rem" }}
+                    style={{ padding: "0.8rem 1.0rem", fontSize: "1.0rem" }}
                   >
                     {skill}
                   </span>
