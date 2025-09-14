@@ -109,11 +109,11 @@ const App = () => {
         "Gestione magazzino, ricezione e stoccaggio merci, spedizioni.",
     },
     {
-      title: "Entiende S.R.L..S.",
-      role: "Consulente Energia",
-      period: "Marzo 2022 - Gennaio 2023",
+      title: "Siti S.R.L.",
+      role: "Developer Frontend",
+      period: "Marzo 2022 - Aprile 2023",
       description:
-        "Analisi consumi, consulenza energetica, ottimizzazione forniture.",
+        "Sviluppo Siti Web e App Mobile Responsive con React, Bootstrap, Css, HTML5.",
     },
     {
       title: "GRIP S.R.L.",
