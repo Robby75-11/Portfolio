@@ -113,7 +113,7 @@ const App = () => {
       role: "Developer Frontend",
       period: "Marzo 2022 - Aprile 2023",
       description:
-        "Sviluppo Siti Web e App Mobile Responsive con React, Bootstrap, Css, HTML5.",
+        "Sviluppo Siti Web e App Mobile Responsive, integrazione con Redux dello stato Globale e utilizzo di React, Bootstrap, Css, HTML5.",
     },
     {
       title: "GRIP S.R.L.",
