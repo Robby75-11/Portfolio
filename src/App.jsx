@@ -34,7 +34,7 @@ const App = () => {
     {
       title: "Netflix Movie",
       description:
-        "Un clone dell'interfaccia di Netflix, che mostra una galleria di film e serie TV. Progettato per replicare l'estetica e l'esperienza di navigazione della popolare piattaforma di streaming.",
+        "Un clone dell'interfaccia di Netflix, che mostra una galleria di film e serie TV. Progettato per replicare l'estetica e l'esperienza di navigazione della popolare piattaforma di streaming.Realizzato con React, Bootstrap, java e Spring Boot. ",
       imageUrl: "2025-09-08 (6).png",
       projectUrl: "https://netflix-movie-seven.vercel.app/",
       githubUrl: "https://github.com/Robby75-11/netflix-movie",
