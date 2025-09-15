@@ -50,7 +50,7 @@ const App = () => {
     {
       title: "E-commerce-Tech",
       description:
-        "Un sito e-commerce specializzato in prodotti tecnologici, con funzionalità complete per la gestione del catalogo prodotti e del carrello.",
+        "Un sito e-commerce specializzato in prodotti tecnologici, con funzionalità complete per la gestione del catalogo prodotti e del carrello.Realizzato con React, Bootstrap, Redux.",
       imageUrl: "2025-09-08 (7).png",
       projectUrl: "https://e-commerce-pc-beta.vercel.app/",
       githubUrl: "https://github.com/Robby75-11/e-commerce-pc",
@@ -58,7 +58,7 @@ const App = () => {
     {
       title: "Spotify Homepage",
       description:
-        "Una riproduzione fedele della homepage di Spotify, focalizzata sul design e sull'esperienza utente. Realiazzato con Bootstrap, javascript, Css, HTML5.",
+        "Una riproduzione fedele della homepage di Spotify, focalizzata sul design e sull'esperienza utente. Realizzato con Bootstrap, javascript, Css, HTML5.",
       imageUrl: "2025-09-08 (4).png",
       projectUrl: "https://spoti-team7-final.vercel.app",
       githubUrl: "#",
