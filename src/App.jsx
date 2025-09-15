@@ -58,7 +58,7 @@ const App = () => {
     {
       title: "Spotify Homepage",
       description:
-        "Una riproduzione fedele della homepage di Spotify, focalizzata sul design e sull'esperienza utente.",
+        "Una riproduzione fedele della homepage di Spotify, focalizzata sul design e sull'esperienza utente. Realiazzato con Bootstrap, javascript, Css, HTML5.",
       imageUrl: "2025-09-08 (4).png",
       projectUrl: "https://spoti-team7-final.vercel.app",
       githubUrl: "#",
