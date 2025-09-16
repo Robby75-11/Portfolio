@@ -122,11 +122,11 @@ const App = () => {
         "Gestione magazzino, ricezione e stoccaggio merci, spedizioni.",
     },
     {
-      title: "Siti S.R.L.",
-      role: "Developer Frontend",
+      title: "Entiende S.R.L.",
+      role: "OPeratore Web e addetto inserimento dati ",
       period: "Marzo 2022 - Aprile 2023",
       description:
-        "Sviluppo Siti Web e App Mobile Responsive, integrazione con Redux dello stato Globale e utilizzo di React, Bootstrap, Css, HTML5.",
+        "Consulente Energia e addetto allo sviluppo con  Css, HTML5.",
     },
     {
       title: "GRIP S.R.L.",
