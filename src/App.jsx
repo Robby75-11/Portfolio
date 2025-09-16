@@ -1,5 +1,25 @@
 import { useState } from "react";
-
+import {
+  FaReact,
+  FaNodeJs,
+  FaJava,
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaBootstrap,
+  FaSass,
+  FaGitAlt,
+  FaGithub,
+  FaDocker,
+} from "react-icons/fa";
+import {
+  SiTypescript,
+  SiRedux,
+  SiPostgresql,
+  SiSpringboot,
+  SiTailwindcss,
+} from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
 //  the portfolio of Roberto
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -73,31 +93,23 @@ const App = () => {
   };
 
   const skills = [
-    "HTML",
-    "CSS",
-    "JavaSscript",
-    "Bootstrap",
-    "Sass",
-    "tailwind",
-    "React",
-    "Node.js",
-    "TypeScript",
-    "Redux",
-    "Java",
-    "Spring Boot",
-    "JPA",
-    "JWT",
-    "PostgreSQL",
-    "REST API",
-    "Git",
-    "GitHub",
-    "Docker",
-    "Railway",
-    "Vercel",
-    "Koyeb",
-    "Postman",
-    "IntelliJ",
-    "VSCode",
+    { name: "React", icon: FaReact },
+    { name: "Java", icon: FaJava },
+    { name: "JavaScript", icon: FaJsSquare },
+    { name: "HTML", icon: FaHtml5 },
+    { name: "CSS", icon: FaCss3Alt },
+    { name: "Bootstrap", icon: FaBootstrap },
+    { name: "Sass", icon: FaSass },
+    { name: "Redux", icon: SiRedux },
+    { name: "Spring Boot", icon: SiSpringboot },
+    { name: "PostgreSQL", icon: SiPostgresql },
+    { name: "Node.js", icon: FaNodeJs },
+    { name: "Git", icon: FaGitAlt },
+    { name: "GitHub", icon: FaGithub },
+    { name: "Docker", icon: FaDocker },
+    { name: "TypeScript", icon: SiTypescript },
+    { name: "SQL", icon: BsFiletypeSql },
+    { name: "Tailwind", icon: SiTailwindcss },
   ];
 
   const professionalExperiences = [
@@ -292,16 +304,40 @@ const App = () => {
               <h2 className="text-center text-white mb-5">
                 Competenze Tecniche
               </h2>
-              <div className="d-flex flex-wrap justify-content-center gap-2">
-                {skills.map((skill, index) => (
-                  <span
-                    key={index}
-                    className="badge rounded-pill bg-secondary text-info fw-normal"
-                    style={{ padding: "0.8rem 1.0rem", fontSize: "1.0rem" }}
-                  >
-                    {skill}
-                  </span>
-                ))}
+              <div className="d-flex flex-wrap justify-content-center gap-4">
+                {skills.map((skill, index) => {
+                  const IconComponent = skill.icon;
+                  return (
+                    <div
+                      key={index}
+                      className="text-center"
+                      style={{ width: "80px" }}
+                    >
+                      <div
+                        className="d-flex align-items-center justify-content-center rounded-circle border border-info border-2 mb-2 p-3"
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          margin: "0 auto",
+                          transition: "transform 0.3s ease-in-out",
+                          cursor: "pointer",
+                          backgroundColor: "rgba(23, 162, 184, 0.1)",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.transform = "scale(1.2)")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.transform = "scale(1)")
+                        }
+                      >
+                        <IconComponent
+                          style={{ fontSize: "2.5rem", color: "#17a2b8" }}
+                        />
+                      </div>
+                      <span className="small text-white-50">{skill.name}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </section>
