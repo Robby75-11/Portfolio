@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./App.css";
 import {
   FaReact,
   FaNodeJs,
@@ -310,7 +311,7 @@ const App = () => {
                   return (
                     <div
                       key={index}
-                      className="text-center"
+                      className="text-center icon-container"
                       style={{ width: "80px" }}
                     >
                       <div
@@ -323,14 +324,9 @@ const App = () => {
                           cursor: "pointer",
                           backgroundColor: "rgba(23, 162, 184, 0.1)",
                         }}
-                        onMouseOver={(e) =>
-                          (e.currentTarget.style.transform = "scale(1.2)")
-                        }
-                        onMouseOut={(e) =>
-                          (e.currentTarget.style.transform = "scale(1)")
-                        }
                       >
                         <IconComponent
+                          className="icon-move"
                           style={{ fontSize: "2.5rem", color: "#17a2b8" }}
                         />
                       </div>
@@ -342,7 +338,7 @@ const App = () => {
             </div>
           </section>
 
-          {/* Progeti */}
+          {/* Progetti */}
           <section className="py-5 bg-secondary" id="projects">
             <div className="container px-4">
               <h2 className="text-center text-white mb-5">I miei progetti</h2>

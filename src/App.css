@@ -1,7 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px); /* Sposta l'icona di 5px a destra */
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
+.icon-move {
+  animation: move 1s ease-in-out infinite; /* L'animazione dura 1 secondo e si ripete */
+}
