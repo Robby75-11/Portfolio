@@ -4,7 +4,7 @@
     transform: translateX(0);
   }
   50% {
-    transform: translateX(5px); /* Sposta l'icona di 5px a destra */
+    transform: translateX(10px); /* Sposta l'icona di 5px a destra */
   }
   100% {
     transform: translateX(0);
