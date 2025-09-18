@@ -152,7 +152,8 @@ const App = () => {
       description: [
         "Backend: Java, Spring Boot, JPA, REST API, PostgreSQL, JWT (autenticazione lato server).",
         "Frontend: React, Redux, TypeScript, HTML5, CSS3, Bootstrap, Vite.",
-        "Strumenti/Versionamento: Git, GitHub.",
+        "Tools/Versioning: Git, GitHub.",
+        "Deployment: Vercel, Netlify, Railway, Render, Heroku, Koyeb.",
       ],
     },
     {
