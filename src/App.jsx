@@ -144,6 +144,32 @@ const App = () => {
     },
   ];
 
+  const education = [
+    {
+      title: "Full Stack Developer",
+      school: "EPICODE Institute of Technology",
+      year: "2025",
+      description: [
+        "Backend: Java, Spring Boot, JPA, REST API, PostgreSQL, JWT (autenticazione lato server).",
+        "Frontend: React, Redux, TypeScript, HTML5, CSS3, Bootstrap, Vite.",
+        "Strumenti/Versionamento: Git, GitHub.",
+      ],
+    },
+    {
+      title: "Corso AI & GitHub Copilot",
+      school: "EPICODE Institute of Technology",
+      year: "2025",
+      description: [
+        "LLM, Prompt Engineering, GitHub Copilot. Automazioni nello sviluppo software. Uso pratico di AI in ambito coding.",
+      ],
+    },
+    {
+      title: "Python Intermediate",
+      school: "EPICODE Institute of Technology",
+      year: "2025",
+      description: [],
+    },
+  ];
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -195,6 +221,14 @@ const App = () => {
                       onClick={() => scrollToSection("experiences")}
                     >
                       Esperienze
+                    </button>
+                  </li>
+                  <li className="nav-item">
+                    <button
+                      className="nav-link text-white-50"
+                      onClick={() => scrollToSection("skills")}
+                    >
+                      Formazione
                     </button>
                   </li>
                   <li className="nav-item">
@@ -291,6 +325,44 @@ const App = () => {
                           {exp.period}
                         </p>
                         <p className="card-text">{exp.description}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Sezione Formazione */}
+          <section className="py-5 bg-dark" id="education">
+            <div className="container px-4">
+              <h2 className="text-center text-white mb-5">Formazione</h2>
+              <div className="row g-4 justify-content-center">
+                {education.map((edu, index) => (
+                  <div key={index} className="col-12 col-md-10 col-lg-8">
+                    <div
+                      className="card text-white bg-secondary border-0 shadow-lg"
+                      style={{ borderLeft: "4px solid #17a2b8" }}
+                    >
+                      <div className="card-body">
+                        <h5 className="card-title fw-bold text-info">
+                          {edu.title}
+                        </h5>
+                        <h6 className="card-subtitle mb-2 text-white">
+                          {edu.school}
+                        </h6>
+                        <p className="card-text text-white-50 small mb-3">
+                          {edu.year}
+                        </p>
+                        {Array.isArray(edu.description) && (
+                          <div className="card-text">
+                            {edu.description.map((line, lineIndex) => (
+                              <p key={lineIndex} className="m-0">
+                                {line}
+                              </p>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     </div>
                   </div>
