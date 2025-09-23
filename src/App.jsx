@@ -115,11 +115,11 @@ const App = () => {
 
   const professionalExperiences = [
     {
-      title: 'Ditta di Trasporti "Sinesi Carmine"',
-      role: "Magazziniere",
+      title: "IT Consel - Andria Developer Full Stack ",
+      role: "Developer Full Stack",
       period: "Maggio 2023 - Gennaio 2025",
       description:
-        "Gestione magazzino, ricezione e stoccaggio merci, spedizioni.",
+        "Creazione di progetti front-end e back-end con Javascript, react, Bootstrap, Java ,Spring Boot e postgreSQL.",
     },
     {
       title: "Entiende S.R.L.",
