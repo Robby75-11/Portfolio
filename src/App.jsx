@@ -115,7 +115,7 @@ const App = () => {
 
   const professionalExperiences = [
     {
-      title: "IT Consel - Andria Developer Full Stack ",
+      title: "Siti S.r.l. - Corato Developer Full Stack ",
       role: "Developer Full Stack",
       period: "Maggio 2023 - Gennaio 2025",
       description:
