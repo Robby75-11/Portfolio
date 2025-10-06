@@ -119,7 +119,7 @@ const App = () => {
       role: "Developer Full Stack",
       period: "Maggio 2023 - Gennaio 2025",
       description:
-        "Creazione di progetti front-end e back-end con Javascript, react, Bootstrap, Angular, C#, Java ,Spring Boot e postgreSQL.",
+        "Creazione di progetti e sviluppo con logica di business e API RESTful in Node.js/Express, Implementazione di sistemi di autenticazione e autorizzazione (JWT). Realizzazione di interfacce utente responsive con React, Bootstrap. Gestione di database relazionali (PostgreSQL) e non relazionali (MongoDB). Collaborazione in team utilizzando Git e GitHub per il versionamento del codice.",
     },
     {
       title: "Entiende S.R.L.",
