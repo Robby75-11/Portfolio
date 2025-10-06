@@ -47,7 +47,7 @@ const App = () => {
     {
       title: "Travel Mate",
       description:
-        "Una piattaforma per la pianificazione di viaggi, che aiuta gli utenti a esplorare destinazioni e organizzare itinerari. Sviluppata per offrire un'esperienza utente fluida e ricca di funzionalità.Realizzata con React, Bootstrap,Javascript, Api Google Maps, Java, Spring Boot, Database PostgreSQL. Attendete giusto il tempo di un caffè e l'app si aprirà completamente",
+        "Una piattaforma per la pianificazione di viaggi, che aiuta gli utenti a esplorare destinazioni e organizzare itinerari. Sviluppata per offrire un'esperienza utente fluida e ricca di funzionalità.Realizzata con React, Bootstrap,Javascript, Api Google Maps, Java, Spring Boot, Database PostgreSQL.",
       imageUrl: "/Screenshot 2025-07-25 165206.png",
       projectUrl: "#",
       githubUrl: "https://github.com/Robby75-11/Travel-mate",
