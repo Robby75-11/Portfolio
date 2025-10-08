@@ -54,14 +54,6 @@ const App = () => {
     },
 
     {
-      title: "Apple Music",
-      description:
-        "Una riproduzione della pagina principale di Apple Music, con un'attenzione particolare al design minimalista e alla riproduzione musicale. L'obiettivo è stato replicare l'eleganza del layout originale.Realizzato con React, Bootstrap, Sass, Redux, Java, Spring Boot, PostgreSQL.",
-      imageUrl: "/Screenshot 2025-08-03 010559.png",
-      projectUrl: "https://apple-music-five.vercel.app/",
-      githubUrl: "https://github.com/Robby75-11/Apple-music",
-    },
-    {
       title: "E-commerce-Tech",
       description:
         "Un sito e-commerce specializzato in prodotti tecnologici, con funzionalità complete per la gestione del catalogo prodotti e del carrello.Realizzato con React, Bootstrap, Redux.",
