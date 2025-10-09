@@ -102,17 +102,11 @@ const App = () => {
     {
       title: "Siti S.r.l. - Corato Developer Full Stack ",
       role: "Developer Full Stack",
-      period: "Marzo 2021 - Gennaio 2025",
+      period: "Marzo 2022 - Gennaio 2025",
       description:
         "Creazione di progetti e sviluppo con logica di business e API RESTful in Node.js/Express, Implementazione di sistemi di autenticazione e autorizzazione (JWT). Realizzazione di interfacce utente responsive con React, Bootstrap. Gestione di database relazionali (PostgreSQL) e non relazionali (MongoDB). Collaborazione in team utilizzando Git e GitHub per il versionamento del codice.",
     },
-    {
-      title: "Entiende S.R.L.",
-      role: "OPeratore Web e addetto inserimento dati ",
-      period: "Marzo 2022 - Aprile 2023",
-      description:
-        "Consulente Energia e addetto allo sviluppo con  Css, HTML5.",
-    },
+
     {
       title: "GRIP S.R.L.",
       role: "Consulente Energia",
