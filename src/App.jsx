@@ -40,7 +40,7 @@ const App = () => {
       title: "App Meteo",
       description:
         "Un'applicazione meteo interattiva che fornisce previsioni in tempo reale e quando inserisci la città esce la foto della città. Creata con React, si concentra sull'usabilità e sulla chiarezza dei dati.",
-      imageUrl: "/2025-09-08 (9).png",
+      imageUrl: "/Meteo.png",
       projectUrl: "https://previ-meteo.vercel.app/",
       githubUrl: "https://github.com/Robby75-11/App-meteo",
     },
