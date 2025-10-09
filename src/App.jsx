@@ -55,7 +55,7 @@ const App = () => {
     {
       title: "Apple Music",
       description:
-        "Una riproduzione fedele della homepage di Apple-Music, con card autore, Canzoni e player musicale per ascpltare il brano selezionato. Realizzato con Bootstrap, javascript, React, Redux.",
+        "Una riproduzione fedele della homepage di Apple-Music, con card autore, Canzoni e player musicale per ascoltare il brano selezionato. Realizzato con Bootstrap, javascript, React, Redux.",
       imageUrl: "Screenshot 2025-08-03 010559.png",
       projectUrl: "https://apple-music-five.vercel.app/",
       githubUrl: "https://github.com/Robby75-11/Apple-music",
