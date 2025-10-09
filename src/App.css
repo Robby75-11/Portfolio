@@ -14,3 +14,12 @@
 .icon-move {
   animation: move 1s ease-in-out infinite; /* L'animazione dura 1 secondo e si ripete */
 }
+body {
+  padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 100px;
+  }
+}
