@@ -77,6 +77,14 @@ const App = () => {
       projectUrl: "https://spoti-team7-final.vercel.app",
       githubUrl: "#",
     },
+    {
+      title: "Netflix-Movie",
+      description:
+        "Una riproduzione fedele della homepage di Netflix, focalizzata su card cinema. Realizzato con Bootstrap, javascript, React.",
+      imageUrl: "2025-09-08 (6).png",
+      projectUrl: "https://netflix-movie-seven.vercel.app/",
+      githubUrl: "https://github.com/Robby75-11/netflix-movie",
+    },
   ];
 
   const contacts = {
