@@ -80,7 +80,7 @@ const App = () => {
     {
       title: "Netflix-Movie",
       description:
-        "Una riproduzione fedele della homepage di Netflix, focalizzata su card cinema. Realizzato con Bootstrap, javascript, React.",
+        "Una riproduzione fedele della homepage di Netflix, focalizzata su card cinema.L'app consente di aggiungere i film a una lista personale tramite il pulsante dedicato e, cliccando su una card, visualizzare la descrizione completa del film. Realizzato con Bootstrap, javascript, React.",
       imageUrl: "2025-09-08 (6).png",
       projectUrl: "https://netflix-movie-seven.vercel.app/",
       githubUrl: "https://github.com/Robby75-11/netflix-movie",
