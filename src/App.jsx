@@ -47,7 +47,7 @@ const App = () => {
     {
       title: "Saloon-Barber",
       description:
-        "Salon & Barber è un’applicazione full-stack pensata per saloni di bellezza e barber shop. Permette ai clienti di visualizzare servizi e professionisti, prenotare appuntamenti e ricevere conferme, mentre il personale del salone può gestire clienti, prenotazioni e il catalogo dei servizi in modo semplice e sicuro, teccnolgie usate, Javascript, REact-Bootstrap, Java, SpringBoot, JPA, JWT.",
+        "Saloon & Barber è un’ applicazione full-stack pensata per saloni di bellezza e barber shop. Permette ai clienti di visualizzare servizi e professionisti, prenotare appuntamenti e ricevere conferme, mentre il personale del salone può gestire clienti, prenotazioni e il catalogo dei servizi in modo semplice e sicuro, tecnologie usate, Javascript, React-Bootstrap, Java, SpringBoot, JPA, JWT.",
       imageUrl: "/barber.png",
       projectUrl: "https://saloon-barber.vercel.app/",
       githubUrl: "https://github.com/Robby75-11/Barber",
