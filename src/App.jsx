@@ -45,13 +45,21 @@ const App = () => {
       githubUrl: "https://github.com/Robby75-11/App-meteo",
     },
     {
-      title: "Travel Mate",
+      title: "Saloon-Barber",
       description:
-        "Una piattaforma per la pianificazione di viaggi, che aiuta gli utenti a esplorare destinazioni e organizzare itinerari. Sviluppata per offrire un'esperienza utente fluida e ricca di funzionalità.Realizzata con React, Bootstrap,Javascript, Api Google Maps, Java, Spring Boot, Database PostgreSQL.",
-      imageUrl: "/Screenshot 2025-07-25 165206.png",
-      //  projectUrl: "https://travel-mate-sand.vercel.app/",
-      githubUrl: "https://github.com/Robby75-11/Travel-mate",
+        "Salon & Barber è un’applicazione full-stack pensata per saloni di bellezza e barber shop. Permette ai clienti di visualizzare servizi e professionisti, prenotare appuntamenti e ricevere conferme, mentre il personale del salone può gestire clienti, prenotazioni e il catalogo dei servizi in modo semplice e sicuro, teccnolgie usate, Javascript, REact-Bootstrap, Java, SpringBoot, JPA, JWT.",
+      imageUrl: "/barber.png",
+      projectUrl: "https://saloon-barber.vercel.app/",
+      githubUrl: "https://github.com/Robby75-11/Barber",
     },
+    // {
+    // title: "Travel Mate",
+    //  description:
+    //     "Una piattaforma per la pianificazione di viaggi, che aiuta gli utenti a esplorare destinazioni e organizzare itinerari. Sviluppata per offrire un'esperienza utente fluida e ricca di funzionalità.Realizzata con React, Bootstrap,Javascript, Api Google Maps, Java, Spring Boot, Database PostgreSQL.",
+    //  imageUrl: "/Screenshot 2025-07-25 165206.png",
+    //  projectUrl: "https://travel-mate-sand.vercel.app/",
+    //  githubUrl: "https://github.com/Robby75-11/Travel-mate",
+    //  },
     {
       title: "Apple Music",
       description:
