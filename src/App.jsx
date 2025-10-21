@@ -83,7 +83,7 @@ const App = () => {
         "Una riproduzione fedele della homepage di Spotify, focalizzata sul design e sull'esperienza utente. Realizzato con Bootstrap, javascript, Css, HTML5.",
       imageUrl: "2025-09-08 (4).png",
       projectUrl: "https://spoti-team7-final.vercel.app",
-      githubUrl: "#",
+      githubUrl: "https://github.com/LLeo93/BW2-Team7",
     },
     {
       title: "Netflix-Movie",
