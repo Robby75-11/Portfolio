@@ -124,7 +124,7 @@ const App = () => {
 
   const professionalExperiences = [
     {
-      title: "Siti S.r.l. - Corato Developer Full Stack ",
+      title: "TecnoIt S.r.l. - Bari Developer Full Stack ",
       role: "Developer Full Stack",
       period: "Marzo 2022 - Gennaio 2025",
       description:
